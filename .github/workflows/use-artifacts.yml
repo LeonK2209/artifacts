@@ -1,6 +1,6 @@
 name: Use Artifacts
 
-on: [push]
+on: [push, workflow_dispatch]
 
 env:
   FILE_NAME: web-server
